@@ -11,6 +11,7 @@ setuptools.setup(
     author="Ephson Guakro",
     author_email="leocorp96@gmail.com",
     description="This component allows you to have a joystick in streamlit",
+    url='https://pypi.org/project/streamlit-joystick/',
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(where="src"),
