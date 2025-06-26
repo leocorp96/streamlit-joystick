@@ -4,7 +4,7 @@ from typing import Optional
 import streamlit as st
 import streamlit.components.v1 as components
 
-_USE_WEB_DEV_SERVER = True
+_USE_WEB_DEV_SERVER = False
 
 if _USE_WEB_DEV_SERVER:
     _component_func = components.declare_component(
@@ -43,17 +43,8 @@ def left_joystick():
     value = st_joystick(options={'size': 200})
     #st.write(value)
 
-@st.fragment
-def right_joystick():
-    value = st_joystick(options={'size': 200}, id=1)
-    #st.write(value)
-
 def main():
-    cols = st.columns(2)
-    with cols[0]:
-        left_joystick()
-    with cols[1]:
-        right_joystick()
+    left_joystick()
 
 
 if __name__ == "__main__":
