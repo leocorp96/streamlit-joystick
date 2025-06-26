@@ -7,7 +7,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setuptools.setup(
     name="streamlit-joystick",
-    version="0.1.0",
+    version="0.1.1",
     author="Ephson Guakro",
     author_email="leocorp96@gmail.com",
     description="This component allows you to have a joystick in streamlit",
