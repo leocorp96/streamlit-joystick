@@ -1,0 +1,21 @@
+{
+  "template": "https://github.com/blackary/cookiecutter-streamlit-component/",
+  "commit": "c972054b7b0890a1aa1c02e792bedc71c525ea87",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "author_name": "Ephson Guakro",
+      "author_email": "leocorp96@gmail.com",
+      "project_name": "Streamlit NippleJS Joystick",
+      "package_name": "streamlit-joystick",
+      "import_name": "st_joystick",
+      "description": "This component allows you to have a joystick in streamlit",
+      "deployment_via_github_actions": "y",
+      "working_with_dataframes": "n",
+      "open_source_license": "Apache Software License 2.0",
+      "_template": "https://github.com/blackary/cookiecutter-streamlit-component/",
+      "_commit": "c972054b7b0890a1aa1c02e792bedc71c525ea87"
+    }
+  },
+  "directory": null
+}
