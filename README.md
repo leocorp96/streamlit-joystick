@@ -1,6 +1,6 @@
 # streamlit-joystick
 
-This component allows you to have a joystick in streamlit
+This component wraps [nipplejs](https://www.npmjs.com/package/nipplejs), an open-source joystick library by Yoann Moinet, licensed under the [MIT License](https://github.com/yoannmoinet/nipplejs/blob/master/LICENSE).
 
 ## Installation instructions 
 
